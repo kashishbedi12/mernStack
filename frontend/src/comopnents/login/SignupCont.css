@@ -1,0 +1,24 @@
+.contEle2{
+    margin: 3vh auto;
+}
+
+.formDiv2{
+    margin: 3vh auto;
+}
+
+.heading2{
+    margin: 7vh auto;
+}
+
+.inp2{
+    height: 2.5vh;
+}
+
+.span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.span:hover{
+    cursor: pointer;
+}

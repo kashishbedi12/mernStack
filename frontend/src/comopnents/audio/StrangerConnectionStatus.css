@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.strangerConnectedCont{
+    padding: 2px;
+    text-align: center;
+}
+
+.strangerConnectedBox{
+    display: inline-block;
+    width: 70%;
+    height: 25px;
+    padding: 5px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: large;
+}

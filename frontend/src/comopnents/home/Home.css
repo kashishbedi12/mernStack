@@ -1,0 +1,31 @@
+
+.chatSection{
+    height: 92vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* border: 2px solid black; */
+}
+
+.row{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+@media screen and (max-width: 600px) {
+    .chatSection{
+        overflow: scroll;
+        align-items: normal;
+    }
+    .chatSectionFlex{
+        /* flex-direction: row; */
+        /* border: 2px solid black; */
+    }
+
+    .row{
+        flex-direction: column;
+    }
+}

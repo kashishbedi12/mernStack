@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont{
+    /* border: 1px solid black; */
+
+    /* margin: 1vh auto ; */
+    /* width: 400px; */
+    /* height: 100%; */
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+
+.contEle{
+    margin: 5vh auto;
+}
+
+.formDiv{
+    margin:3.5vh auto;
+}
+
+.divEle{
+    margin: 5px;
+}
+
+.heading{
+    margin: 6vh auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em;
+    opacity: 0.5;
+}
+
+.greet{
+    font-size: 1.3em;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.label{
+    opacity: 0.5;
+}
+
+.inp{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 2.5vh;
+    width: 200px;
+    padding: 3px;
+}
+
+.btn{
+    width: 180px;
+    height: 45px;
+    border-radius: 1.2em;
+    border: none;
+    background-color: #696969;
+    font-size: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.btnLink{
+    text-decoration: none;
+    color: white;
+}
+
+input:focus , textarea:focus{
+    outline: none;
+}
+
+.invalidDetails{
+    color: red;
+    font-family: 'Lora', serif;margin: 3px;
+}
+  
+@media screen and (max-width: 600px) {
+    .inp{
+        width: 150px;
+    }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.msgSentCont{
+    padding: 2px;
+    text-align: right;
+}
+
+.msgSentBox{
+    display: inline-block;
+    max-width: 70%;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    padding: 5px;
+    background: #f2fdf1;
+    font-family: 'Lora', serif;
+    box-shadow: 2px 2px 5px rgb(210, 210, 210);
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.loginMainCont{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100vw;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.LoginImg{
+    /* border: 1px solid black; */
+    width: 45vw;
+}
+
+.LoginCont{
+    /* border: 1px solid black; */
+    width: 45vw;
+    /* margin-bottom: 7vh; */
+}
+
+.SignupCont{
+    /* border: 1px solid black; */
+    width: 45vw;
+}
+
+@media screen and (max-width: 600px) {
+    .LoginImg{
+        display: none;
+    }
+}

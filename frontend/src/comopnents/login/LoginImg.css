@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgCont{
+    margin:auto;
+    /* border: 1px solid black; */
+    height: 80vh;    
+}
+
+.loginImg{
+    /* border: 1px solid black; */
+    /* display: block; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 100%;
+    /* height: 100%; */
+    /* margin: 10px 0px; */
+}
+
+@media screen and (max-width: 600px) {
+    .imgCont{
+        /* display: none; */
+    }
+}

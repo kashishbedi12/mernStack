@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.chatBoxBox{
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 95vh;
+    /* overflow: scroll; */
+}
+
+.chatBoxCont{
+    border-radius: 20px;
+    border: 1px solid rgb(211, 211, 211);
+    box-shadow: 0px 2px 5px rgb(210, 210, 210);
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 45%;
+    margin: 5px;
+    display: block;
+}
+
+.chatBoxContEle{
+    border-radius: 20px;
+}
+
+.infoCont{
+    height: 9.5%;
+    display: flex;
+    justify-content: space-between; 
+    box-shadow: 0px 2px 5px rgb(210, 210, 210);
+}
+
+.infoContEle{
+    margin: 3px;
+    display:  flex;
+    align-items: center;
+    font-family: 'Lora', serif;
+    font-size:larger;
+    font-weight: bold;
+}
+
+.leftInfoCont{
+    text-align: left;
+}
+
+.leftInfoContEle{
+    margin: 5px;
+}
+
+.rightInfoCont{
+    text-align: right;
+}
+
+.userImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.addFriendBtn{
+    margin: 0px 5px;
+    width: 100px;
+    height: 32px;
+    border: none;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.addFriendBtn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.cancelAddFriend{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.msgCont{
+    height: 79.5%;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    overflow: auto;
+}
+
+.typeCont{
+    height: 8%;
+    box-shadow: 0px -2px 5px rgb(210, 210, 210);
+    display: flex;
+    align-items: center;
+}
+
+.typeContEle{
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* border-radius: 20px; */
+}
+
+.newChatBtnCont{
+    width: 9%;
+}
+
+.msgBtnCont{
+    width: 91%;
+}
+
+.chatBtn{
+    height: 100%;
+    width: 100px;
+    margin: 2px;
+    /* border-radius: 20px; */
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Lora', serif;
+}
+.chatBtn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.chatMsgInput{
+    height: 80%;
+    width: 95%;
+    /* margin: 0px 7px; */
+    padding: 3px;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    border: none;
+}
+
+.chatMsgInput:focus{
+    border: none;
+    outline: none;
+}
+
+.changeChatConfirmBtn{
+    background-color:white;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.changeChatBtn{
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 2px 0px 1px black;
+}
+
+.sendMsgBtn{
+    background-color: white;
+    color: black;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: -2px 0px 1px black;
+}
+
+@media screen and (max-width: 600px) {
+    .chatBoxBox{
+        /* border: 1px solid black; */
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        overflow: scroll;
+    }
+    .chatBoxCont{
+        border: 1px solid black;
+        width: 97%;
+        height: 45vh;
+        padding-bottom: 2px;
+    }
+
+    .infoCont{
+        height: 55px;
+    }
+
+    .msgCont{
+        height: 72%;
+    }
+
+    .typeCont{
+        height: 33px; 
+    }
+
+    .changeChatBtn{
+        padding-left: 3px;
+    }
+
+    .chatMsgInput{
+        margin-left: 10px;
+        width: 200%;
+    }
+
+
+    .videoBoxCont{
+        border: 1px solid black;
+        width: 97%;
+        height: 46vh;
+    }
+    .strangerVideo{
+        height: 44vh;
+        margin: 10px 0px;
+    }
+    .userVideo{
+        border: 1px solid whitesmoke;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 8vh;
+        right:10px;
+    }
+    
+}
+@media screen and (max-height: 849px) {
+    .chatBoxCont{
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-height: 790px) {
+    .chatBoxCont{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .chatBoxCont{
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
+
+.hr{
+    width: 98%;
+    margin: 0px 1%;
+}
+
+.profileUpdateCont{
+    margin: 0px 30px;
+    font-family: 'Lora', serif;
+}
+
+.profileUpdateContEle{
+    margin: 10px 0px;
+}
+
+.profileUpdateContLink{
+    color: blue;
+    text-decoration: underline;
+}
+.profileUpdateContLink:hover{
+    cursor: pointer;
+}

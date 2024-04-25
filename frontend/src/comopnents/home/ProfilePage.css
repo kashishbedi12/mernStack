@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* font-family: 'Lora', serif; */
+
+.profileCont{
+    text-align: center;
+    /* border: 1px solid black; */
+    /* height: 50vh; */
+    display: flex;
+    justify-content: left;
+    margin: 30px 0px ;
+    /* box-shadow: 3px 3px 5px rgb(216, 215, 215) ; */
+    border-radius: 10px;
+}
+
+.profileContEle{
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+    width: 300px;
+}
+
+.profileLside{
+    width: 200px;
+}
+
+
+
+.profileImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid rgb(222, 220, 220);
+    box-shadow: 2px 2px 5px rgb(201, 200, 200);
+    margin: 5px auto;
+}
+
+.profileRside{
+    text-align: left;
+    height:200px;
+    font-family: 'Lora', serif;
+    margin: 7px ;
+    font-size: 17px;
+}
+
+.profileRsideEle{
+    margin: 10px 0px;
+}
+
+.profileName{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.followLink{
+    font-weight: bold;
+    /* text-decoration: none; */
+    color: black;
+    font-size: 17px;
+}
+
+.profileBioTitle{
+    font-weight: bold;
+    font-size: 17px;
+}
+
